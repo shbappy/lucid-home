@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* global css start */
+.title{
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.title h4{
+    color: #0871a7;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.title .h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 43px;
+}
+/* global css end */
+.header{
+    width: 100%;
+    padding: 20px 0px 360px 0px;
+    background: url("../images/header-bg.png") center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header .navbar-expand-lg .navbar-nav .active{
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 21px;
+    font-size: 18px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: auto;
+    color: #008ed6;
+}
+.header .header-details{
+    position: relative;
+    top: 78px;
+    left: 108px;
+}
+.header .header-details h4{
+    color: #0871a7;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.header .header-details h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 43px;
+    margin-top: 12px;
+}
+.header .header-details p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+    color: #999999;
+}
+.header .header-details .header-button{
+    position: relative;
+    top: 30px;
+}
+.header .header-details .header-button .btn-primary{
+    border-radius: 3px;
+    padding: 9px 17px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: #008ed6;
+    border: 1px solid#008ed6;
+}
+.header .header-details .header-button .btn-primary:hover{
+    background: transparent;
+    color: #008ed6;
+}
+.header .header-details .header-button .btn-primary:focus{
+    color: rgb(223, 53, 53);
+    background: #008ed6;
+}
+.header .header-details .header-button .btn-info{
+    border-radius: 3px;
+    padding: 9px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background: rgb(19, 19, 19);
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    left: 155px;
+}
+.header .header-details .header-button .btn-info:hover{
+    background: #008ed6;
+    color: #fff;
+    
+}
+/* header end */
+
+/* feature start */
+.feature{
+    width: 100%;
+    padding: 55px 135px 15px 134px;
+    border-bottom: 1px solid#ede0e0;
+}
+.feature .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 55px 0px;
+}
+.feature .title h4{
+    color: #0871a7;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.feature .title h1{
+    color: #000;
+    font-size: 35px;
+    line-height: 43px;
+}
+.inner-feature{
+    text-align: center;
+    padding: 0px 59px 20px 51px;
+}
+.inner-feature .icon{
+    width: 82px;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+    margin: 0px auto;
+    border: 1px solid#ebdfdf;
+    border-radius: 100%;
+}
+
+.inner-feature h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: -5px;
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+    color: #b3afaf;
+}
+
+/* beautiful start */
+.beautiful{
+    width: 100%;
+    padding: 66px 30px 20px 30px;
+    position: relative;
+}
+.beautiful .device{
+    
+}
+.beautiful .device img{
+    margin-top: -2px;
+}
+.beautiful .beautiful-details{
+    position: absolute;
+    top: 105px;
+    left: 48%;
+}
+.beautiful .beautiful-details .title{
+    
+}
+.beautiful .beautiful-details .title h4{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #008ed6;
+    font-size: 14px;
+}
+.beautiful .beautiful-details .title h1{
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: -3px;
+}
+.beautiful .beautiful-details p{
+    margin-top: -20px;
+    margin-bottom: 41px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #b3afaf;
+}
+.beautiful .beautiful-details .items{
+
+}
+.beautiful .beautiful-details .items p{
+    font-weight: 600;
+    color: #6a6464;
+    font-size: 15px;
+}
+.beautiful .beautiful-details .items img{
+    margin-right: 7px;
+    width: 14px;
+}
+
+/* beautiful start */
